@@ -1,0 +1,371 @@
+  /* header section */
+  .topright li {
+      margin: 0px 15px;
+  }
+
+  .topnav {
+      padding-left: 20px;
+  }
+
+  .dropdown-menu {
+      min-width: 0;
+      background-color: black;
+      padding: 0px 10px;
+  }
+
+  .dropdown-menu .menu1 {
+      z-index: 1;
+  }
+
+  .dropdown-item {
+      color: rgb(179, 177, 177);
+      padding: 10px;
+  }
+
+  .dropdown-item:hover {
+      color: white;
+      background-color: transparent;
+  }
+
+  .navbar {
+      position: relative !important;
+  }
+
+  .main {
+      width: 1050%;
+      position: absolute;
+      top: 55px !important;
+      left: -760px !important;
+      overflow: hidden;
+
+  }
+
+  .pri {
+      position: relative;
+  }
+
+  .pri button {
+      border-radius: 50px;
+      background-color: rgb(207, 205, 205);
+  }
+
+  .pri1 {
+      position: absolute;
+      top: 50px !important;
+      left: -1303px !important;
+  }
+
+  .pri3 {
+      width: 630% !important;
+      background-color: black;
+  }
+
+  .pri3 input {
+      width: 100% !important;
+      background-color: black;
+  }
+
+  .drop1 {
+      background-color: rgb(207, 205, 205);
+      box-shadow: none !important;
+      width: 100px;
+      margin-top: 5px;
+  }
+
+  .drop1 {
+      position: relative;
+  }
+
+  .drop1 .dropdown-menu {
+      min-width: 0;
+      background-color: white;
+      position: absolute;
+      top: 45px !important;
+      left: -300px !important;
+      padding: 30px;
+  }
+
+  .drop1 .dropdown-item {
+      color: black;
+      padding: 0px;
+  }
+
+  .float-right {
+      float: right !important;
+  }
+
+  .drop1 .text-center1 a {
+      padding: 15px 30px;
+      font-size: 12px;
+      border: none;
+  }
+
+  .drop1 .text-center1 a:hover {
+      background-color: rgb(214, 11, 11);
+  }
+
+  .header1 {
+      background-color: #f2f3f5;
+  }
+
+  .header1 nav {
+      margin-left: 80px;
+  }
+
+  .header1 ol li a {
+      text-decoration: none;
+      color: #343a40;
+  }
+
+  /* header end */
+
+  /* section1 */
+  .about {
+      margin: 100px 80px;
+  }
+
+  .about h1,
+  h4 {
+      font-weight: 400;
+      color: #3f434e;
+  }
+
+  .about p {
+      color: #3f434e;
+  }
+
+  .about ul li {
+      margin: 0px -30px;
+  }
+
+  .about ul li .leftbox {
+      padding-left: 20px;
+      color: #3f434e;
+  }
+
+  .about ul li a i {
+      font-size: 30px;
+      color: #3f434e;
+  }
+
+  /* section 1 end */
+
+  /* section 2 */
+  .seasonend {
+      background: linear-gradient(rgba(11, 11, 11, 0.323), rgba(0, 0, 0, 0.586)), url(../img/cta.jpg);
+      background-attachment: fixed;
+      padding: 90px 0px;
+  }
+
+  .seasonend button {
+      background-color: white;
+      color: #3f434e;
+  }
+
+  .seasonend button:hover {
+      background-color: red;
+      color: white;
+  }
+
+  /* section 2 end */
+
+  /* section 3 */
+  .card-group {
+      margin: 100px 270px;
+  }
+
+  .section3 .card {
+      margin: 0px 20px;
+  }
+
+  .icons i {
+      background-color: black;
+      color: white;
+  }
+
+  .card-body .icons i:hover {
+      background-color: red;
+      color: white;
+  }
+
+  .card-body .icons {
+      opacity: 0;
+
+  }
+
+  .card:hover .card-body .icons {
+      opacity: 1;
+  }
+
+  /* section 3 end */
+
+  /* footer section */
+  footer {
+      background-color: #f2f3f5;
+  }
+
+  footer .container {
+      margin: 0px 200px;
+  }
+
+  .icons i {
+      background-color: black;
+      color: white;
+  }
+
+  .footersection .row {
+      margin: 0px 80px;
+  }
+
+  footer .row .foot1 .icons i:hover {
+      background-color: red;
+      color: white;
+  }
+  .footer1{
+    margin-bottom: 5px;
+  }
+ 
+
+  /* footer end */
+
+  @media screen and (min-width:0px) and (max-width:425px) {
+    .main {
+        width: 80%;
+    }
+
+    .pri1 {
+        position: absolute;
+        top: 50px !important;
+        left: 5px !important;
+        z-index: 1;
+    }
+
+    .pri3 {
+        width: 100% !important;
+        background-color: black;
+    }
+
+    .pri {
+        position: relative;
+    }
+
+    .drop1 {
+        position: relative;
+    }
+
+    .drop1 .dropdown-menu {
+        min-width: 0;
+        background-color: white;
+        position: absolute;
+        top: 45px !important;
+        left: -11px !important;
+        padding: 0px;
+    }
+
+    .drop1 .dropdown-item {
+        padding: 0px;
+    }
+
+    .float-right {
+        float: none !important;
+    }
+
+      .drop1 .text-center1 a {
+          padding: 15px 30px;
+
+      }
+
+      .about {
+          margin: 0px 0px;
+      }
+
+      .about ul li {
+          margin: 0px -10px;
+      }
+
+      .about ul li .leftbox {
+          padding-left: 10px;
+      }
+
+      .card-group {
+          margin: 50px 0px;
+      }
+
+      footer .container {
+          margin: 0px 0px;
+      }
+
+      .footersection .row {
+          margin: 0px 0px;
+      }
+      .footersection{
+        text-align: center;
+      }
+  }
+
+  @media screen and (min-width:425px) and (max-width:768px) {
+      .main {
+          width: 80%;
+      }
+
+      .pri1 {
+          position: absolute;
+          top: 50px !important;
+          left: 5px !important;
+          z-index: 1;
+      }
+
+      .pri3 {
+          width: 100% !important;
+          background-color: black;
+      }
+
+      .pri {
+          position: relative;
+      }
+
+      .drop1 {
+          position: relative;
+      }
+
+      .drop1 .dropdown-menu {
+          min-width: 0;
+          background-color: white;
+          position: absolute;
+          top: 45px !important;
+          left: -40px !important;
+          padding: 20px;
+      }
+
+      .float-right {
+          float: none !important;
+      }
+
+      .drop1 .dropdown-item {
+          padding: 0px;
+      }
+
+      .about {
+          margin: 0px 0px;
+      }
+
+      .about ul li {
+          margin: 0px 0px;
+      }
+
+      .card-group {
+          margin: 50px 0px;
+      }
+
+      footer .container {
+          margin: 0px 0px;
+      }
+
+      .footersection .row {
+          margin: 0px 80px;
+      }
+      .footersection{
+        text-align: center;
+      }
+
+  }

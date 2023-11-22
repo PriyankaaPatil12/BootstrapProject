@@ -1,0 +1,682 @@
+/* header section */
+.topright li {
+    margin: 0px 15px;
+}
+
+.topnav {
+    padding-left: 20px;
+}
+
+.dropdown-menu {
+    min-width: 0;
+    background-color: black;
+    padding: 0px 10px;
+}
+
+.dropdown-item {
+    color: rgb(216, 211, 211);
+    padding: 10px;
+}
+
+.dropdown-item:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.navbar {
+    position: relative !important;
+}
+.navbar .container-fluid{
+    margin: 0px 20px;
+}
+.navbar .navbar-nav .nav-item{
+    padding: 0px 10px;
+}
+.main {
+    width: 1050%;
+    position: absolute;
+    top: 55px !important;
+    left: -760px !important;
+    overflow: hidden;
+
+}
+
+.pri {
+    position: relative;
+}
+
+.pri button {
+    border-radius: 50px;
+    background-color: rgb(207, 205, 205);
+}
+
+.pri1 {
+    position: absolute;
+    top: 50px !important;
+    left: -1305px !important;
+    z-index: 1;
+}
+
+.pri3 {
+    width: 630% !important;
+    background-color: black;
+}
+
+.pri3 input {
+    width: 100% !important;
+    background-color: black;
+}
+
+.drop1 {
+    background-color: rgb(207, 205, 205);
+    box-shadow: none !important;
+    width: 100px;
+    margin-top: 5px;
+}
+
+.drop1 {
+    position: relative;
+}
+
+.drop1 .dropdown-menu {
+    min-width: 0;
+    background-color: white;
+    position: absolute;
+    top: 45px !important;
+    left: -300px !important;
+    padding: 30px;
+}
+
+.drop1 .dropdown-item {
+    color: black;
+    padding: 0px;
+}
+
+.float-right {
+    float: right !important;
+}
+
+.drop1 .text-center1 a {
+    padding: 15px 30px;
+    font-size: 12px;
+    border: none;
+}
+
+.drop1 .text-center1 a:hover {
+    background-color: rgb(214, 11, 11);
+}
+
+/* header end */
+
+
+/* section1 */
+.carousel-control-next-icon {
+    background-image: url(../img/arrow_forward_FILL0_wght400_GRAD0_opsz48.png);
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../img/arrow_back_FILL0_wght400_GRAD0_opsz48.png);
+}
+
+.section1 .page1 {
+
+    background-image: url(../img/deal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    padding: 100px 0px;
+}
+
+.page1 .row {
+    margin: 0px 100px;
+}
+
+.bag img {
+    margin-left: 100px;
+}
+
+.shoe img {
+    margin-left: 0px;
+}
+
+.section1 .page2 {
+
+    background-image: url(../img/deal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    padding: 100px 0px;
+}
+
+.page2 .row {
+    margin: 0px 100px;
+}
+
+/* section 1 end */
+
+/* section 2 */
+.section2 .row {
+    margin: 70px 100px;
+}
+
+.zoom {
+    overflow: hidden;
+}
+
+.zoom ul .zoom1 {
+    overflow: hidden;
+}
+
+.zoom img {
+    transition: all 0.3s;
+}
+
+.zoom img:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+.view button {
+    border: 1px solid grey;
+    color: grey;
+}
+
+.view button:hover {
+    border: 1px solid red;
+    color: red;
+}
+
+/* section 2 end */
+
+/* section 3  */
+.seasonend {
+    background: linear-gradient(rgba(11, 11, 11, 0.323), rgba(0, 0, 0, 0.586)), url(../img/cta.jpg);
+    background-attachment: fixed;
+    padding: 90px 0px;
+}
+
+.seasonend button {
+    background-color: white;
+    color: #3f434e;
+}
+
+.seasonend button:hover {
+    background-color: red;
+    color: white;
+}
+
+/* section 3 end */
+
+/* section 4 */
+.section4 {
+    margin: 0px 100px;
+}
+
+.section4 .inner1 {
+    margin: 0px 100px;
+}
+
+.innerproduct {
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.product1:hover .innerproduct {
+    opacity: 1;
+}
+
+.product1 .pro1 {
+    width: 100% !important;
+}
+
+.innerproduct .bottombox {
+    width: 100%;
+    padding: 30px 0px;
+    background: linear-gradient(rgba(255, 255, 255, 0.285), rgba(255, 255, 255, 0.236));
+    opacity: 0;
+    transition: all 0.5s !important;
+}
+
+.innerproduct .bottombox a button {
+    font-size: 10px;
+    margin: 0px 70px;
+}
+
+.innerproduct:hover .bottombox {
+    transform: translateY(-80px);
+    opacity: 1;
+}
+
+.innerproduct .bottombox a button {
+    font-size: 10px;
+    margin: 0px 70px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.carousel-indicators {
+    bottom: -62px;
+}
+
+.product1 .lefticon ul li {
+    list-style-type: none;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+/* section 4 end */
+
+/* section 5 */
+.section5 .container {
+    margin: 0px 140px;
+}
+
+.section5 {
+    background-image: url(../img/deal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section5 .row h1 {
+    font-size: 50px;
+}
+
+/* section 5 end */
+
+/* section 6  */
+.item {
+    position: relative;
+    overflow: hidden;
+}
+
+.section6 .item .item1 {
+    width: 257px !important;
+    height: 257px !important;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.482);
+    opacity: 0;
+}
+
+.item1 a {
+    text-decoration: none;
+    color: white;
+}
+
+/* .item:hover .item1 {
+    opacity: 1;
+}
+
+.item1 a:hover {
+    color: red;
+} */
+
+/* section 6 end */
+
+/* section 7 */
+.ship{
+    margin: 0px 80px;
+}
+.shipbox i{
+    padding: 0px 10px;
+}
+/* section 8 */
+.section8 {
+    background-color: #f2f3f5;
+    padding: 100px 0px;
+}
+
+form {
+    padding: 0px 100px;
+}
+
+.section8 input {
+    margin: 0px 186px;
+}
+
+.section8 button {
+    margin-left: 170px;
+}
+
+
+  /* footer section */
+  footer {
+    background-color: #f2f3f5;
+}
+
+footer .container {
+    margin: 0px 200px;
+}
+
+.icons i {
+    background-color: black;
+    color: white;
+}
+
+.footersection .row {
+    margin: 0px 80px;
+}
+
+footer .row .foot1 .icons i:hover {
+    background-color: red;
+    color: white;
+}
+.footer1{
+  margin-bottom: 5px;
+}
+
+
+/* footer end */
+
+/* modal */
+
+.modal .modin .modbtn {
+    width: 100%;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: red;
+    margin-top: 10px;
+    color: white;
+}
+
+.modicon i {
+    margin: 10px 20px;
+}
+
+.modicon {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.modicon i:hover {
+    color: red;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+
+@media screen and (min-width:0px) and (max-width:425px) {
+    .main {
+        width: 80%;
+    }
+    .navbar .container-fluid{
+        margin: 0px -3px;
+    }
+    .navbar .navbar-nav .nav-item{
+        padding: 0px 0px;
+    }
+    .navbar .navbar-nav{
+        margin: 10px 0px;
+    }
+
+    .pri1 {
+        position: absolute;
+        top: 50px !important;
+        left: 5px !important;
+        z-index: 1;
+    }
+
+    .pri3 {
+        width: 100% !important;
+        background-color: black;
+    }
+
+    .pri {
+        position: relative;
+    }
+
+    .drop1 {
+        position: relative;
+    }
+
+    .drop1 .dropdown-menu {
+        min-width: 0;
+        background-color: white;
+        position: absolute;
+        top: 45px !important;
+        left: -11px !important;
+        padding: 0px;
+    }
+
+    .drop1 .dropdown-item {
+        padding: 0px;
+    }
+
+    .float-right {
+        float: none !important;
+    }
+
+    .section1 .page1 {
+        height: 140vh;
+    }
+
+    .page1 .row {
+        margin: 0px 50px;
+    }
+
+    .section1 .page2 {
+        height: 140vh;
+    }
+
+    .shoe img {
+        margin-left: 0px;
+    }
+
+    .bag img {
+        margin-left: 0px;
+    }
+
+    .section2 .row {
+        margin: 0px 0px;
+    }
+
+    .zoom {
+        margin-top: 20px;
+        /* width: 320px; */
+    }
+
+    .section4 {
+        margin: 0px 0px;
+    }
+
+    .section4 .inner1 {
+        margin: 0px 0px;
+    }
+
+    .section5 .container {
+        margin: 0px 0px;
+    }
+
+    .section5 .row h1 {
+        font-size: 39px;
+    }
+
+    .section5 .row img {
+        margin-top: 20px;
+    }
+
+    .ship{
+        margin: 0px 0px;
+    }
+    .shipbox i{
+        padding: 0px 15px;
+    }
+
+    .section8 input {
+        margin: 10px;
+    }
+
+    .section6 .row {
+        margin: 0px 10px;
+    }
+
+    .section6 .item {
+        margin-top: 20px;
+    }
+
+    .section6 .item1 {
+        overflow: hidden;
+    }
+
+    .section8 button {
+        margin-left: 10px;
+        text-align: center;
+
+    }
+
+    form {
+        padding: 0px;
+    }
+
+    footer .container {
+        margin: 0px 0px;
+    }
+
+    .footersection .row {
+        margin: 0px 0px;
+    }
+    .footersection{
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:425px) and (max-width:768px) {
+    .main {
+        width: 70%;
+    }
+
+    .pri1 {
+        position: absolute;
+        top: 50px !important;
+        left: 5px !important;
+        z-index: 1;
+    }
+
+    .pri3 {
+        width: 100% !important;
+        background-color: black;
+    }
+
+    .pri {
+        position: relative;
+    }
+
+    .drop1 {
+        position: relative;
+    }
+
+    .drop1 .dropdown-menu {
+        min-width: 0;
+        background-color: white;
+        position: absolute;
+        top: 45px !important;
+        left: -40px !important;
+        padding: 20px;
+    }
+
+    .drop1 .dropdown-item {
+        padding: 0px;
+    }
+
+    .float-right {
+        float: none !important;
+    }
+
+    .section1 .page1 {
+        height: 100vh;
+        padding: 0px 0px;
+    }
+
+    .page1 .row {
+        margin: 0px;
+    }
+
+    .page2 .row {
+        margin: 0px;
+    }
+
+    .section1 .page2 {
+        height: 100vh;
+        padding: 0px 0px;
+    }
+
+    .bag img {
+        margin-left: 0px;
+    }
+
+    .section2 .row {
+        margin: 50px 0px;
+    }
+
+    .zoom {
+        margin-top: 20px;
+    }
+
+    .section4 .inner1 {
+        margin: 0px 0px;
+    }
+   
+    .section4 .product1 ul {
+        padding-left: 0px;
+    }
+
+    .section4 {
+        margin: 0px 0px;
+    }
+
+    .section5 .container {
+        margin: 0px 100px;
+    }
+
+    .section6 .row {
+        margin: 0px 90px;
+    }
+
+    .section6 .item {
+        margin-top: 20px;
+    }
+
+    .section8 input {
+        margin: 10px;
+    }
+
+    .section8 button {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    form {
+        padding: 0px;
+    }
+
+    footer .row {
+        margin: 50px 0px;
+    }
+
+    footer .foot {
+        margin-right: 10px;
+    }
+
+    .footersection .row {
+        margin: 0px 80px;
+    }
+
+    .footersection .row img,
+    p {
+        margin-top: 20px;
+    }
+}
